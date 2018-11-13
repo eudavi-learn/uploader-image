@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: hasashisama
+  api_key: '958443777184642'
+  api_secret: ZnOnRPcgR6vYJ74XRI0t1uUDeIA
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: hasashisama
+  api_key: '958443777184642'
+  api_secret: ZnOnRPcgR6vYJ74XRI0t1uUDeIA
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: hasashisama
+  api_key: '958443777184642'
+  api_secret: ZnOnRPcgR6vYJ74XRI0t1uUDeIA
+  enhance_image_tag: true
+  static_image_support: false
