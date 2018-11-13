@@ -34,7 +34,7 @@ rbenv install 2.5.1
 
 Using [Figaro](https://github.com/laserlemon/figaro):
 
-See [config/cloudinary.yml](https://github.com/Davigl/uploader-image/blob/master/config/cloudinary.yml) and set with cloudinary settings.
+See [config/cloudinary.yml](https://github.com/Davigl/uploader-image/blob/master/config/cloudinary.yml) and set with your cloudinary settings.
 
 ### Initialize the database
 
