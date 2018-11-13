@@ -51,7 +51,7 @@ heroku git:remote -a project
 heroku git:remote --remote heroku-staging -a project-staging
 ```
 
-## Serve
+## Server
 
 ```shell
 rails s
