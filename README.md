@@ -27,7 +27,7 @@ rbenv install 2.5.1
 
 
 ```shell
-1. Install Dependencies: `bundle install`
+`bundle install`
 ```
 
 ### Set environment variables
