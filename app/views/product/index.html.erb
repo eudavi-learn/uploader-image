@@ -1,4 +1,9 @@
+<h1> Images </h1>
 <% @products.each do |product| %>
-    <br>
-    <%= cl_image_tag(product.image, :crop => "fill", :gravity => "faces", :width => 300, :height => 200, :format => "jpg") %>
+    <div>
+    	<h2> Image uploaded <%= product.id %> </h2>
+    </div>
+    <div>
+    	<%= cl_image_tag(product.image, :crop => "fill", :gravity => "faces", :width => 300, :height => 200, :format => "jpg") %>	
+    </div>
 <% end %>
