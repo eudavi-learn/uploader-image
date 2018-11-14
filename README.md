@@ -1,6 +1,6 @@
 # Uploader Image
 
-How to use cloudinary with carrierwave.
+Simple example of how to storage your images in cloudinary storage and use it.
 
 ### Clone the repository
 
