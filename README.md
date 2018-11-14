@@ -1,6 +1,6 @@
 # Uploader Image
 
-Example how to use cloudinary with carrierwave.
+How to use cloudinary with carrierwave.
 
 ### Clone the repository
 
@@ -34,7 +34,7 @@ rbenv install 2.5.1
 
 Using [Figaro](https://github.com/laserlemon/figaro):
 
-See [config/cloudinary.yml](https://github.com/Davigl/uploader-image/blob/master/config/cloudinary.yml) and set with your cloudinary settings.
+Set [config/application.yml](https://github.com/Davigl/uploader-image/blob/master/config/application.yml) with your cloudinary keys.
 
 ### Initialize the database
 
