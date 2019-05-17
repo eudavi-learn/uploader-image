@@ -11,9 +11,9 @@ class ProductController < ApplicationController
         @product = Product.new(product_params)
 
         if @product.save
-            render json: { result: true, msg: ' The image is sucessfully uploaded!!'}, status: :created
+            render json: { result: true, message: 'The image is sucessfully uploaded!!'}, status: :created
         else
-            render json: { result: false, user: @product.errors }, status: :unprocessable_entity
+            render json: { result: false, errors: @product.errors }, status: :unprocessable_entity
         end
         
         @product.update_attributes(product_params)
